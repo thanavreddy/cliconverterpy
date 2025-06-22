@@ -19,7 +19,10 @@ python --version
 
 ### Installation
 
-1. Download the `converter.py` script
+1. Download the `converter.py` script or clone the repo
+ ```bash
+git clone https://github.com/thanavreddy/cliconverterpy/
+  ```
 2. Navigate to the directory containing the script
 3. Run the converter using the commands below
 
@@ -29,6 +32,11 @@ python --version
 
 ```bash
 python converter.py --c2f <temperature_in_celsius>
+```
+### Convert Farenheit to Celsius
+
+```bash
+python converter.py --f2c <temperature_in_farenheit>
 ```
 
 
